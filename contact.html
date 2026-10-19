@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta name="description" content="Manufacturer of industrial and domestic cleaning chemicals and consumables in Etwatwa, Gauteng.">
+<meta name="theme-color" content="#047857">
+<link rel="icon" href="assets/img/Logo Icon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Questrial&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="wrap bar">
+    <a class="brand" href="index.html" aria-label="Wabane Chemicals">
+      <img src="assets/img/Logo Icon.svg" alt="Wabane Chemicals logo" class="brand-mark" width="40" height="40">
+
+    </a>
+    <button class="menu-btn" aria-expanded="false" aria-controls="site-nav" aria-label="Menu"><span></span></button>
+    <nav class="nav" id="site-nav" aria-label="Main">
+      <ul>
+        <li><a href="index.html" aria-current="page">Home</a></li>
+<li><a href="about.html">About us</a></li>
+<li><a href="industries.html">Industries</a></li>
+<li><a href="products.html">Products</a></li>
+<li><a class="btn btn-primary" href="contact.html">Contact us</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main">
+
+<section class="page-hero contact-hero">
+  <div class="wrap">
+    <h1><strong>Let us talk about your cleaning needs.</strong></h1>
+    <p class="lead">Send us a message or call. One of our experts will respond within one working day.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap contact-grid">
+    <div class="form-card" id="form">
+      <h2>Send us a message</h2>
+      <p class="muted" style="margin:0">Fields marked <span class="req">*</span> are required.</p>
+      <form id="contact-form" action="contact.php" method="post" novalidate>
+        <div class="form-grid">
+          <div class="field"><label for="name">Full name <span class="req">*</span></label><input id="name" name="name" type="text" autocomplete="name" required minlength="2" maxlength="80" inputmode="text" pattern="[A-Za-zÀ-ÖØ-öø-ÿ' .-]{2,80}"></div>
+          <div class="field"><label for="company">Company</label><input id="company" name="company" type="text" autocomplete="organization" maxlength="100" inputmode="text" pattern="[A-Za-z0-9À-ÖØ-öø-ÿ&.,' -]{2,100}"></div>
+          <div class="field"><label for="email">Email <span class="req">*</span></label><input id="email" name="email" type="email" autocomplete="email" required maxlength="120" inputmode="email"></div>
+          <div class="field"><label for="phone">Phone</label><input id="phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" pattern="[0-9+()\-\s]{7,20}" maxlength="20"></div>
+          <div class="field full">
+            <label for="enquiry_type">What is your enquiry about?</label>
+            <select id="enquiry_type" name="enquiry_type">
+              <option>General enquiry</option>
+              <option>Industrial products</option>
+              <option>Domestic products</option>
+              <option>Consumables</option>
+              <option>Flexible Formulations</option>
+              <option>Bulk supply or distribution</option>
+            </select>
+          </div>
+          <div class="field full"><label for="message">Message <span class="req">*</span></label><textarea id="message" name="message" required minlength="10"></textarea></div>
+          <div class="field hp" aria-hidden="true"><label for="website">Leave this field empty</label><input id="website" name="website" type="text" tabindex="-1" autocomplete="off"></div>
+          <input type="hidden" name="ts" value="">
+          <div class="field full consent"><input id="consent" name="consent" type="checkbox" value="1" required><label for="consent" style="font-family:var(--font-body);font-weight:400;font-size:.92rem;color:var(--g600)">I agree that Wabane Chemicals Chemicals may store my details and contact me about this enquiry, in line with POPIA. <span class="req">*</span></label></div>
+        </div>
+        <div style="margin-top:1.6rem"><button class="btn btn-primary" type="submit">Send message</button></div>
+        <div id="form-status" class="form-status" role="status" tabindex="-1"></div>
+      </form>
+    </div>
+
+    <div>
+      <h2>Get in touch</h2>
+      <ul class="details">
+        <li><span class="ico-wrap"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s7-6.2 7-11.5A7 7 0 0 0 5 9.5C5 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg></span><div><h3>Visit us</h3><p>5 Unit 2, 41 Barney Road, Benrose<br>Johannesburg, 2094</p></div></li>
+        <li><span class="ico-wrap"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></svg></span><div><h3>Call us</h3><p><a href="tel:+27116203044">+27 (0)11 620 3044</a></p></div></li>
+        <li><span class="ico-wrap"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg></span><div><h3>Email us</h3><p><a href="mailto:sales@wabanechemicals.co.za">sales@wabanechemicals.co.za</a></p></div></li>
+        <li><span class="ico-wrap"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></span><div><h3>Opening hours</h3><p>Mon to Fri 08:00 to 16:30<br>Closed on weekends and public holidays</p></div></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="section-tight" style="padding-bottom:clamp(4rem,8vw,7rem)">
+  <div class="wrap">
+    <div class="map">
+      <iframe title="Map showing the Wabane Chemicals location in Johannesburg" src="https://www.google.com/maps?q=Wabane+Chemicals&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+      <div class="map-card">
+        <h3>Wabane Chemicals</h3>
+        <p>Wabane Chemicals, Johannesburg, South Africa</p>
+        <a class="btn btn-primary btn-sm" href="https://www.google.com/maps/place/Wabane+Chemicals/@-26.2109882,28.0806713,17z/data=!3m1!4b1!4m6!3m5!1s0x1e950f3c25e5ae49:0xa394fea6fa122991!8m2!3d-26.2109882!4d28.0806713!16s%2Fg%2F11nvyl76qn?entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener">Get directions</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div>
+      <a class="brand" href="index.html" aria-label="Wabane Chemicals home">
+        <img src="assets/img/Logo Proposal.svg" alt="Wabane Chemicals logo" class="brand-mark" width="96" height="96">
+      </a>
+      <p style="margin-top:1.2rem; font-weight:400">Industrial and domestic cleaning chemicals, made in Gauteng and supplied across South Africa.</p>
+    </div>
+    <div>
+      <h4>Explore</h4>
+      <ul>
+        <li class="range-copy"><a href="index.html">Home</a></li>
+        <li class="range-copy"><a href="about.html">About us</a></li>
+        <li class="range-copy"><a href="industries.html">Industries</a></li>
+        <li class="range-copy"><a href="products.html">Products</a></li>
+        <li class="range-copy"><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Product ranges</h4>
+      <ul>
+        <li class="range-copy"><a href="products.html#industrial">Industrial Chemicals</a></li>
+        <li class="range-copy"><a href="products.html#domestic">Domestic Chemicals</a></li>
+        <li class="range-copy"><a href="contact.html?type=Flexible+Formulations">Flexible Formulations</a></li>
+        <li class="range-copy"><a href="products.html#consumables">Consumables</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Visit or Call</h4>
+      <p class="lead" style="font-weight:400; color:#b8cec5">55 Unit 2, 41 Barney Road, Benrose<br>Johannesburg, 2094</p>
+      <p class="lead" style="font-weight:400; color:#b8cec5"><a href="tel:+27116203044">+27 (0)11 620 3044</a><br><a href="mailto:sales@wabanechemicals.co.za">sales@wabanechemicals.co.za</a></p>
+    </div>
+  </div>
+  <div class="wrap footer-bottom">
+    <span>&copy; <span id="year">2026</span> Wabane Chemicals. All rights reserved.</span>
+    <span>Mon to Fri 08:30 to 16:30</span>
+  </div>
+</footer>
+<script src="assets/js/main.js" defer></script>
+</body>
+</html>
